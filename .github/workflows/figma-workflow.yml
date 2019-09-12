@@ -1,5 +1,4 @@
 action "Export SVG from Figma" {
-  name: "Dinocons Figma Action"
   uses = "primer/figma-action@v1.0.0-alpha.2"
   secrets = [
     "FIGMA_TOKEN"
