@@ -1,2 +1,14 @@
-- name: Dinocons Figma Action
-  uses: primer/figma-action@v1.0.0-alpha.2
+action "Export SVG from Figma" {
+  name: "Dinocons Figma Action"
+  uses = "primer/figma-action@v1.0.0-alpha.2"
+  secrets = [
+    "FIGMA_TOKEN"
+  ]
+  env = {
+    "FIGMA_FILE_URL" = "https://www.figma.com/file/ZFjrph2HUwFK8Q3uEtJIu1PT/dinocons"
+  }
+  args = [
+    "format=svg",
+    "outputDir=./build/"
+  ]
+}
