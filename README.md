@@ -1,3 +1,5 @@
+![](https://github.com/schalkneethling/mdn-dinocons/workflows/Dinocons%20Figma%20Export/badge.svg)
+
 # mdn-dinocons
 A scalable set of icons for use across Mozilla Developer websites
 
