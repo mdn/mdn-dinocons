@@ -1,7 +1,7 @@
-name: Export SVG from Figma
+name: Export And publish mdn-dinocons
 on: [push]
 jobs:
-  figma-export:
+  all:
     name: Dinocons Figma Export
     runs-on: ubuntu-latest    
     steps:
@@ -11,10 +11,6 @@ jobs:
         env:
           FIGMA_FILE_URL: "https://www.figma.com/file/ZFjrph2HUwFK8Q3uEtJIu1PT/dinocons"
           FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
-  publish-npm:
-    needs: figma-export
-    runs-on: ubuntu-latest
-    steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
         with:
