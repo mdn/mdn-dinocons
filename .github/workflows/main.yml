@@ -17,6 +17,7 @@ jobs:
           FIGMA_FILE_URL: "https://www.figma.com/file/ZFjrph2HUwFK8Q3uEtJIu1PT/dinocons"
           FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
       - run: |
+          mkdir build
           cd ./lib/$*
           cp -R ../build/ .
           cd ..
