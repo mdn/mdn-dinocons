@@ -12,10 +12,11 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - uses: primer/figma-action@v1.0.0-alpha.2
         with:
-          args: "format=svg outputDir=./build/"
+          args: "format=svg outputDir=./lib/build/"
         env:
           FIGMA_FILE_URL: "https://www.figma.com/file/ZFjrph2HUwFK8Q3uEtJIu1PT/dinocons"
           FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
+      - uses: ./copy-icons
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
