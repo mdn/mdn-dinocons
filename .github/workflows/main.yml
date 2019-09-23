@@ -16,9 +16,11 @@ jobs:
         env:
           FIGMA_FILE_URL: "https://www.figma.com/file/ZFjrph2HUwFK8Q3uEtJIu1PT/dinocons"
           FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
-      - uses: actions/bin/sh@master
-        with:
-          args: ["cd ./lib/$*", "cp -R ../build/ .", "cd ..", "ls -l"]
-      - run: npm publish
+      - run: |
+          cd ./lib/$*
+          cp -R ../build/ .
+          cd ..
+          ls -l
+          npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
