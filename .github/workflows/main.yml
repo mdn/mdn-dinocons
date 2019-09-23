@@ -18,7 +18,7 @@ jobs:
           FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
       - uses: actions/bin/sh@master
         with:
-          args: "cd ./lib/$* && p -R ../build/ . && cd .. && ls -l"
+          args: ["cd ./lib/$*", "cp -R ../build/ .", "cd ..", "ls -l"]
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
