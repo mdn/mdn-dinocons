@@ -1,6 +1,6 @@
 {
   "name": "mdn-dinocons",
-  "version": "0.0.6",
+  "version": "0.0.0-semantically-released",
   "description": "A scalable set of icons for use across Mozilla Developer websites",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/schalkneethling/mdn-dinocons.git"
+    "url": "git+https://github.com/mdn/mdn-dinocons.git"
   },
   "keywords": [
     "icons",
@@ -19,7 +19,7 @@
   "author": "Mozilla",
   "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/schalkneethling/mdn-dinocons/issues"
+    "url": "https://github.com/mdn/mdn-dinocons/issues"
   },
-  "homepage": "https://github.com/schalkneethling/mdn-dinocons#readme"
+  "homepage": "https://github.com/mdn/mdn-dinocons#readme"
 }

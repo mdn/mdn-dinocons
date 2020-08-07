@@ -1,0 +1,25 @@
+name: Export and Publish Dinocons
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  all:
+    name: Export and Publish Dinocons
+    runs-on: ubuntu-latest    
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+          registry-url: https://registry.npmjs.org/
+      - uses: primer/figma-action@v1.0.0-alpha.2
+        with:
+          args: "format=svg outputDir=./icons/"
+        env:
+          FIGMA_FILE_URL: "https://www.figma.com/file/ZFjrph2HUwFK8Q3uEtJIu1PT/dinocons"
+          FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
