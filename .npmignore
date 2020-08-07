@@ -1,1 +1,5 @@
 .github
+.gitignore
+.prettierrc
+figma.yml
+package.json
