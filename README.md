@@ -6,7 +6,7 @@ A scalable set of icons for use across Mozilla Developer websites
 
 ## Figma File
 
-https://www.figma.com/file/ZFjrph2HUwFK8Q3uEtJIu1PT/dinocons
+[Iconography in Figma](https://www.figma.com/file/YYVJ8uqG8UFBBvQhdI7fxR/MDN-Web-Docs?node-id=186%3A27)
 
 ## Workflow
 
