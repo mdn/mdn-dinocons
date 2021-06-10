@@ -1,15 +1,31 @@
-name: publish-dinocons
 on:
   push:
-    branches: [master]
+    branches:
+      - main
+name: publish-dinocons
 jobs:
-  all:
-    name: publish-dinocons
+  release-please:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: publish
-        uses: mikeal/merge-release@master
+      - uses: GoogleCloudPlatform/release-please-action@v2.28
+        id: release
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+          release-type: node
+          package-name: release-please-action
+      # The logic below handles the npm publication:
+      - uses: actions/checkout@v2.3.4
+        # these if statements ensure that a publication only occurs when
+        # a new release is created:
+        if: ${{ steps.release.outputs.release_created }}
+      - uses: actions/setup-node@v2.1.5
+        with:
+          node-version: 12
+          registry-url: "https://registry.npmjs.org"
+        if: ${{ steps.release.outputs.release_created }}
+      - run: yarn install --frozen-lockfile
+        if: ${{ steps.release.outputs.release_created }}
+      - run: npm publish
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+          NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
+        if: ${{ steps.release.outputs.release_created }}
