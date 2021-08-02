@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.3.3](https://www.github.com/mdn/mdn-dinocons/compare/v0.3.2...v0.3.3) (2021-08-02)
+
+
+### Bug Fixes
+
+* icon updates ([553a49d](https://www.github.com/mdn/mdn-dinocons/commit/553a49d345701ef868ee3fa3e81cd462c513d228)), closes [#27](https://www.github.com/mdn/mdn-dinocons/issues/27) [#18](https://www.github.com/mdn/mdn-dinocons/issues/18)
+
 ### [0.3.2](https://www.github.com/mdn/mdn-dinocons/compare/v0.3.1...v0.3.2) (2021-06-10)
 
 
