@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.3.4](https://www.github.com/mdn/mdn-dinocons/compare/v0.3.3...v0.3.4) (2021-08-03)
+
+
+### Bug Fixes
+
+* add bookmark filled icon ([860f9e2](https://www.github.com/mdn/mdn-dinocons/commit/860f9e28dcd8831ac72b839aaf4b1452d8dc405e))
+
 ### [0.3.3](https://www.github.com/mdn/mdn-dinocons/compare/v0.3.2...v0.3.3) (2021-08-02)
 
 
