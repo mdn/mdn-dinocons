@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.3.5](https://www.github.com/mdn/mdn-dinocons/compare/v0.3.4...v0.3.5) (2021-08-18)
+
+
+### Bug Fixes
+
+* theme selector icon ([a2afbaf](https://www.github.com/mdn/mdn-dinocons/commit/a2afbaf8529c3ab5b404ec2742cdea11594c9bcd)), closes [#38](https://www.github.com/mdn/mdn-dinocons/issues/38)
+
 ### [0.3.4](https://www.github.com/mdn/mdn-dinocons/compare/v0.3.3...v0.3.4) (2021-08-03)
 
 
