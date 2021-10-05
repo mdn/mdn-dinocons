@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.4.1](https://www.github.com/mdn/mdn-dinocons/compare/v0.4.0...v0.4.1) (2021-10-05)
+
+
+### Bug Fixes
+
+* updated menu open icon ([f29cff4](https://www.github.com/mdn/mdn-dinocons/commit/f29cff48e3ef7cf808304eb82dc5539a0282f345))
+
 ## [0.4.0](https://www.github.com/mdn/mdn-dinocons/compare/v0.3.5...v0.4.0) (2021-10-04)
 
 
