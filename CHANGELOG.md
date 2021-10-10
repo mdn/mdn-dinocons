@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.0](https://www.github.com/mdn/mdn-dinocons/compare/v0.4.1...v0.5.0) (2021-10-10)
+
+
+### Features
+
+* add active notifications icon ([c80ec8a](https://www.github.com/mdn/mdn-dinocons/commit/c80ec8af8d74228785f5f214a7f9c725dcd103cb))
+
 ### [0.4.1](https://www.github.com/mdn/mdn-dinocons/compare/v0.4.0...v0.4.1) (2021-10-05)
 
 
