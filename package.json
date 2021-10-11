@@ -1,6 +1,6 @@
 {
   "name": "@mdn/dinocons",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "A scalable set of icons for use across Mozilla Developer websites",
   "main": "index.js",
   "scripts": {

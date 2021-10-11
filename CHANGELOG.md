@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.5.1](https://www.github.com/mdn/mdn-dinocons/compare/v0.5.0...v0.5.1) (2021-10-11)
+
+
+### Bug Fixes
+
+* update plus icons ([bf2f2a4](https://www.github.com/mdn/mdn-dinocons/commit/bf2f2a490497ba0f5566fb6ace17d3dcffe0bb72))
+
 ## [0.5.0](https://www.github.com/mdn/mdn-dinocons/compare/v0.4.1...v0.5.0) (2021-10-10)
 
 
