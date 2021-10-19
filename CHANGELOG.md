@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.5.3](https://www.github.com/mdn/mdn-dinocons/compare/v0.5.2...v0.5.3) (2021-10-19)
+
+
+### Bug Fixes
+
+* update kebab menu icon ([ae6e5f3](https://www.github.com/mdn/mdn-dinocons/commit/ae6e5f37fc4af6157983b20bbc1cc60a3961794d))
+
 ### [0.5.2](https://www.github.com/mdn/mdn-dinocons/compare/v0.5.1...v0.5.2) (2021-10-14)
 
 
