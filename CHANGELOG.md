@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.5.5](https://www.github.com/mdn/mdn-dinocons/compare/v0.5.4...v0.5.5) (2021-10-27)
+
+
+### Bug Fixes
+
+* update chevron ([5dbad9e](https://www.github.com/mdn/mdn-dinocons/commit/5dbad9ed77ab33e2890af1430f74eb3f291e060c))
+
 ### [0.5.4](https://www.github.com/mdn/mdn-dinocons/compare/v0.5.3...v0.5.4) (2021-10-19)
 
 
